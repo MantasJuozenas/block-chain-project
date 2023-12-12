@@ -1,0 +1,49 @@
+@media screen and (max-width: 1200px) {
+  #home,
+  #about {
+    /* margin-top: 50px; */
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header nav {
+    display: none;
+  }
+
+  #home img {
+    display: none;
+  }
+
+  #home,
+  #about {
+    flex-direction: column;
+  }
+
+  #home > *,
+  #about > * {
+    width: 100%;
+  }
+
+  #about li {
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
+
+  header .logo {
+    margin-bottom: 20px;
+  }
+
+  #services .block {
+    width: 100%;
+  }
+
+  footer {
+    line-height: 30px;
+  }
+}

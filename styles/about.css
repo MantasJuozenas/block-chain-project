@@ -1,0 +1,45 @@
+#about {
+  display: flex;
+  width: 90%;
+  margin: 100px auto;
+}
+
+#about h4 {
+  opacity: 0.5;
+}
+
+#about h1 {
+  font-size: 45px;
+  color: white;
+}
+
+#about h1 span {
+  font-weight: 300;
+  display: block;
+}
+
+#about p {
+  font-size: 25px;
+  line-height: 40px;
+}
+
+#about li {
+  list-style: inside;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+#about img {
+  object-fit: contain;
+  flex: 1;
+  animation: moving 3s infinite alternate linear;
+}
+
+@keyframes moving {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
